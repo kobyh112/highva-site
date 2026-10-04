@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="268 244 488 536" role="img" aria-label="Highva">
+  <defs>
+    <linearGradient id="g" gradientUnits="userSpaceOnUse" x1="292" y1="268" x2="732" y2="756">
+      <stop offset="0" stop-color="#DCC08C"/>
+      <stop offset="0.5" stop-color="#C9A96E"/>
+      <stop offset="1" stop-color="#A88A52"/>
+    </linearGradient>
+  </defs>
+  <g fill="url(#g)">
+    <rect x="292" y="268" width="116" height="488" rx="14"/>
+    <rect x="616" y="268" width="116" height="488" rx="14"/>
+    <polygon points="406,548 618,412 618,508 406,644"/>
+  </g>
+</svg>
