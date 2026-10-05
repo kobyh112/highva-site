@@ -163,3 +163,8 @@ coach, the app will ask for your agreement again before sending anything new.
 ## 12. Contact
 
 Questions or requests: **support@highva.app** (subject "Highva Support").
+
+When you email us, we receive your email address and whatever you write. If you use **Send feedback** (Account
+→ Help & support), the email draft also includes, at the bottom, the app version, your iPhone model and your iOS
+version, to help us fix problems. Nothing else is added (no name, goals or journal), and you can delete those
+lines before sending. We use emails only to answer you and improve Highva.
