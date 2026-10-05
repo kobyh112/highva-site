@@ -1,7 +1,7 @@
 # Highva Privacy Policy
 
-**Effective date:** [Effective date]
-**Who we are:** Highva is an iPhone app made by [Your legal name] ("we", "us"). Contact:
+**Effective date:** Oct. 7, 2026
+**Who we are:** Highva is an iPhone app made by Koby Hilbig ("we", "us"). Contact:
 support@highva.app.
 
 ## The short version

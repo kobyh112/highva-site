@@ -1,8 +1,8 @@
 # Highva Terms of Use
 
-**Effective date:** [Effective date]
+**Effective date:** Oct. 7, 2026
 
-These terms are an agreement between you and [Your legal name] ("we", "us"), the maker of
+These terms are an agreement between you and Koby Hilbig ("we", "us"), the maker of
 Highva. By using Highva, you agree to them. If you don't agree, please don't use the app.
 
 ## 1. Who can use Highva
@@ -106,7 +106,7 @@ responsible for Highva or its support.
 
 ## 13. Law
 
-These terms are governed by the laws of [Your state and country], except where the law where you live says
+These terms are governed by the laws of Idaho, USA, except where the law where you live says
 otherwise.
 
 ## 14. Contact
