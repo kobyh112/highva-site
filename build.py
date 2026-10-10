@@ -29,7 +29,7 @@ EMAIL = "support@highva.app"
 PAGES = [
     # (output, title, description, source, nav key)
     ("index.html", "Highva", "Set your vision. Create a system. Break goals into daily tasks, protect your streaks, reflect nightly, and get coaching inspired by history's brightest minds. Coming soon to the App Store.", "home.html", "home"),
-    ("privacy/index.html", "Privacy Policy · Highva", "What Highva stores, what it shares with its AI provider, and your choices.", "privacy.md", "privacy"),
+    ("privacy/index.html", "Privacy Policy · Highva", "What Highva stores, what it shares with its AI provider, what it counts with analytics, and your choices.", "privacy.md", "privacy"),
     ("terms/index.html", "Terms of Use · Highva", "The terms for using Highva.", "terms.md", "terms"),
     ("support/index.html", "Support · Highva", "Contact Highva support and answers to common questions.", "support.html", "support"),
 ]
