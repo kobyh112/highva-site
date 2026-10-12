@@ -83,11 +83,13 @@ It does these things:
 
 - **An anonymous account.** The first time the app contacts our server, it creates an account with a
   random ID. It has no name, email or password. That happens when the app checks which AI provider to name
-  on the AI coach screen (before you decide), when the AI coach is on, or when you use Explore. If you say
+  on the AI coach screen (before you decide), when the AI coach is on, when you use Explore, or when the app
+  sends anonymous totals (section 5; with usage analytics on, that's when you add your first task). If you say
   "Not now" to the AI coach, nothing of yours is sent to the AI.
 - **Daily limits.** To keep the service fair and affordable, the server counts how many times a day each
-  account uses each AI feature (and how much AI processing it used), and how many photo searches it makes.
-  These counts are kept with the random ID. **Usage counts are deleted automatically after 90 days**, and
+  account uses each AI feature (and how much AI processing it used), how many photo searches it makes, and how
+  many task topics it sends (at most 100 a day). These counts are kept with the random ID, and so is a note of
+  which About-you milestones it already sent (section 5), without your answers, so nothing is counted twice. **Usage counts are deleted automatically after 90 days**, and
   anonymous accounts that haven't been used for 12 months are deleted with everything linked to them.
 - **Passing requests along.** AI requests go through it to Anthropic, and photo searches go through it to
   Unsplash. The **content of these requests isn't stored or logged.**
