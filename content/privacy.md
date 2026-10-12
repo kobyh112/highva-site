@@ -1,6 +1,6 @@
 # Highva Privacy Policy
 
-**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 10, 2026
+**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 12, 2026
 **Who we are:** Highva is an iPhone app made by Koby Hilbig ("we", "us"). Contact:
 support@highva.app.
 
@@ -118,6 +118,10 @@ use the app is sent.
 - technical details: the app version, your iPhone model (like "iPhone 16"), iOS version, language, time zone,
   and a **random analytics ID** the app makes (not your name, email or Apple ID)
 
+The events are **anonymous**: PostHog doesn't build a profile of you. Each event only carries the random
+analytics ID, so we can see patterns (like how many people come back after a week) without knowing who anyone
+is.
+
 **What's never sent to PostHog:** what you write anywhere in the app (journal notes, chat messages, typed
 priorities, captions), your goal names, your task titles, your name, your photos, and your "About you"
 answers (sex, age, relationship status, career stage, height, weight, religion). The app only sends events
@@ -127,9 +131,12 @@ and values from a fixed, pre-approved list, and checks every event before it lea
 that could include text, and no advertising. No event ever records that crisis resources were shown.
 
 PostHog is set to **discard your network (IP) address**. It may still estimate an approximate country from
-it before discarding it. We keep analytics events for up to one year. To have analytics data about you
-deleted, email support@highva.app with the analytics ID shown in **Account → Privacy → What's counted**.
-PostHog's privacy policy: https://posthog.com/privacy
+it before discarding it. **PostHog deletes analytics events automatically after one year** (the retention
+period of our PostHog plan). Because the events aren't attached to a profile, PostHog may not let us delete
+them one person at a time before then. To stop anything more being recorded, turn off **Share usage
+analytics**; to start fresh with a new analytics ID, use **Delete my server data** (section 11). If you'd
+like us to try deleting what was already sent, email support@highva.app with the analytics ID shown in
+**Account → Privacy → What's counted**. PostHog's privacy policy: https://posthog.com/privacy
 
 ## 5. Anonymous totals
 
@@ -213,8 +220,9 @@ coaching. This isn't reported to us or anyone else, and it's never counted in an
 - **Delete your data:** delete the app to remove everything stored on your phone. To delete your anonymous
   account, its usage counts and its subscription records on our server right away, tap **Account → Privacy →
   Delete my server data** (this also turns the AI coach off and gives the app a new analytics ID).
-  Otherwise they're deleted automatically (see section 3). Analytics already sent to PostHog: email us with
-  your analytics ID (section 4). Your App Store purchase history stays with Apple.
+  Otherwise they're deleted automatically (see section 3). Analytics events already sent to PostHog are
+  anonymous and deleted automatically after one year (section 4). Your App Store purchase history stays with
+  Apple.
 - **Your rights:** depending on where you live (for example under the GDPR in Europe or privacy laws in
   California), you may have the right to access, correct, delete or get a copy of your personal data, to
   object to or limit its use, and to withdraw consent. Since almost all of it is on your phone, you can do
