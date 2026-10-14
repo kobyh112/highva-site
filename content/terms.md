@@ -1,6 +1,6 @@
 # Highva Terms of Use
 
-**Effective date:** Oct. 7, 2026
+**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 14, 2026
 
 These terms are an agreement between you and Koby Hilbig ("we", "us"), the maker of
 Highva. By using Highva, you agree to them. If you don't agree, please don't use the app.
@@ -28,12 +28,15 @@ diet, money or career. Exercise carefully and within your limits.
 
 ## 4. Highva Premium (subscription)
 
-- **What it is:** Highva is free to use. **Highva Premium** unlocks the AI coach and data analysis (Journal
-  Analysis and goal analytics). Everything else stays free.
+- **What it is:** Highva is a subscription app. Using it requires **Highva Premium**, which includes every
+  feature: goals and daily tasks, streaks, the journal, the vision board, the AI coach and data analysis.
+- **If your subscription ends:** the app asks you to subscribe again before you can use it. Everything you've
+  created stays saved on your phone and is there when you come back. Restore Purchases, Redeem code, these
+  Terms, the Privacy Policy, contact support and "Delete my server data" stay available from that screen.
 - **Plans:** $7.99 a month or $34.99 a year (US prices; your App Store shows the price in your currency before
   you buy).
-- **Free trial:** each plan starts with a 3-day free trial for new subscribers. You won't be charged if you
-  cancel at least 24 hours before the trial ends.
+- **Free trial:** each plan starts with a 3-day free trial for new subscribers (one free trial per Apple ID). You
+  won't be charged if you cancel at least 24 hours before the trial ends.
 - **Payment:** payment is charged to your Apple ID at the end of the free trial (or when you confirm, if no
   trial applies).
 - **Auto-renewal:** your subscription renews automatically for the same period and price unless you cancel at
