@@ -22,7 +22,7 @@
 </header>
 <main class="doc">
 <h1>Highva Privacy Policy</h1>
-<p><strong>Effective date:</strong> Oct. 7, 2026 · <strong>Last updated:</strong> Oct. 12, 2026</p>
+<p><strong>Effective date:</strong> Oct. 7, 2026 · <strong>Last updated:</strong> Oct. 14, 2026</p>
 <p><strong>Who we are:</strong> Highva is an iPhone app made by Koby Hilbig ("we", "us"). Contact: <a href="mailto:support@highva.app">support@highva.app</a>.</p>
 <h2>The short version</h2>
 <ul>
@@ -64,7 +64,7 @@
   <li><strong>Daily limits.</strong> To keep the service fair and affordable, the server counts how many times a day each account uses each AI feature (and how much AI processing it used), how many photo searches it makes, and how many task topics it sends (at most 100 a day). These counts are kept with the random ID, and so is a note of which About-you milestones it already sent (section 5), without your answers, so nothing is counted twice. <strong>Usage counts are deleted automatically after 90 days</strong>, and anonymous accounts that haven't been used for 12 months are deleted with everything linked to them.</li>
   <li><strong>Passing requests along.</strong> AI requests go through it to Anthropic, and photo searches go through it to Unsplash. The <strong>content of these requests isn't stored or logged.</strong></li>
   <li><strong>Anonymous totals</strong> (section 5): counts with no account ID attached.</li>
-  <li><strong>Subscriptions</strong> (section 6): your subscription's status and history, kept with the random account ID, so Premium works and so we can count trials and cancellations.</li>
+  <li><strong>Subscriptions</strong> (section 6): whether your account has Premium, and your subscription's history (without payment details), so the AI coach knows you subscribed and so we can count trials and cancellations.</li>
 </ul>
 <p>Like most online services, the hosting provider keeps short-lived technical logs (for example the time of a request and the network address it came from) for security and to fix problems.</p>
 <h2>4. Product analytics (PostHog)</h2>
@@ -89,7 +89,14 @@
 </ul>
 <p>Totals and analytics are on by default except the About-you totals, which need your opt-in. Turning off <strong>Share usage analytics</strong> stops task and coach topics too. Because totals aren't linked to anyone, they can't be deleted for one person, and they stay if you delete your data.</p>
 <h2>6. Purchases and subscriptions</h2>
-<p>Highva Premium is sold through <strong>Apple's App Store</strong>. Apple handles payment; we never see your card or Apple ID. We use <strong>RevenueCat</strong> (RevenueCat, Inc., United States) to manage subscriptions. RevenueCat and our server receive purchase details from Apple: the product, transaction IDs, dates (start, trial, renewal, expiry), price and currency, cancellation reason when Apple gives one, and the random account ID. We use them to unlock Premium and to count trials, renewals and cancellations. Subscription events are also sent to PostHog with your random analytics ID. RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
+<p>Highva Premium is sold through <strong>Apple's App Store</strong>. Apple handles payment; we never see your card, your billing details or your Apple ID.</p>
+<p><strong>RevenueCat</strong> (RevenueCat, Inc., United States) manages subscriptions for us. The app connects to RevenueCat to show the plans, make and restore purchases, and check whether Premium is active. RevenueCat receives your purchase details from Apple (the product, transaction IDs, dates of the start, trial, renewals and expiry, price, currency and store country) and basic technical details from the app (such as the app and iOS version and your network address). When the app has an anonymous account on our server (section 3), RevenueCat also gets that <strong>random account ID</strong>, so your purchases are kept under it. RevenueCat's privacy policy: <a href="https://www.revenuecat.com/privacy">https://www.revenuecat.com/privacy</a></p>
+<p><strong>Our server</strong> gets the same purchase events from RevenueCat and keeps:</p>
+<ul>
+  <li><strong>Whether your account has Premium</strong> and until when (plan, trial or not, renewal on or off), so the AI coach works for subscribers. Kept with your random account ID.</li>
+  <li><strong>Each subscription event</strong> (trial started, renewed, cancelled, expired, billing problem, refund), with the plan, dates, price in US dollars, currency and Apple's cancellation reason when given, <strong>without your account ID</strong>. Instead of Apple's transaction ID we keep a <strong>scrambled code</strong> of it that can't be turned back into the ID; it only connects a trial with what happened to it. Events are <strong>deleted after 24 months</strong>.</li>
+</ul>
+<p>We use these to unlock Premium and to count trials, conversions, renewals and cancellations, as totals. They aren't sent to PostHog or anyone else, and they're never used for advertising.</p>
 <h2>7. Other services the app connects to</h2>
 <ul>
   <li><strong>Unsplash</strong> (suggested photos on the Explore page): your search words go to Unsplash through our server. Searches are built from your goals' life areas and can reflect "About you" details you shared (for example an age group, or a place of worship for your religion). No name or account is sent. The photos load straight from Unsplash's servers, and when you add one, Unsplash is told it was added, as its rules require. Unsplash's privacy policy: <a href="https://unsplash.com/privacy">https://unsplash.com/privacy</a></li>
@@ -116,14 +123,14 @@
   <li><strong>Journal notes:</strong> keep them out of what the coach sees (Account → AI Coach → Include journal notes).</li>
   <li><strong>About you:</strong> change any answer, or pick "Prefer not to say" (Account → Your answers).</li>
   <li><strong>Photos:</strong> remove vision board photos anytime; Highva only accesses the photos you choose.</li>
-  <li><strong>Delete your data:</strong> delete the app to remove everything stored on your phone. To delete your anonymous account, its usage counts and its subscription records on our server right away, tap <strong>Account → Privacy → Delete my server data</strong> (this also turns the AI coach off and gives the app a new analytics ID). Otherwise they're deleted automatically (see section 3). Analytics events already sent to PostHog are anonymous and deleted automatically after one year (section 4). Your App Store purchase history stays with Apple.</li>
+  <li><strong>Delete your data:</strong> delete the app to remove everything stored on your phone. To delete your anonymous account, its usage counts and its subscription status on our server right away, tap <strong>Account → Privacy → Delete my server data</strong> (this also turns the AI coach off and gives the app a new analytics ID). Otherwise they're deleted automatically (see section 3). Analytics events already sent to PostHog are anonymous and deleted automatically after one year (section 4). Your App Store purchase history stays with Apple. Subscription events kept for counting (section 6) have no account ID and are removed after 24 months. To have RevenueCat delete its record of your purchases, email us.</li>
   <li><strong>Your rights:</strong> depending on where you live (for example under the GDPR in Europe or privacy laws in California), you may have the right to access, correct, delete or get a copy of your personal data, to object to or limit its use, and to withdraw consent. Since almost all of it is on your phone, you can do most of this in the app. For anything else, email <a href="mailto:support@highva.app">support@highva.app</a>. You can also complain to your local data protection authority.</li>
 </ul>
 <p><strong>Why we use your data (legal bases, for the GDPR):</strong> to provide the app you asked for; with your consent for the AI coach, for About-you totals, and for any sensitive details you choose to share (you can withdraw it anytime); and our legitimate interest in keeping the service secure and affordable (daily limits, technical logs) and in understanding how the app is used to improve it (product analytics and anonymous totals, which you can turn off).</p>
 <h2>12. Children</h2>
 <p>Highva isn't meant for children under 13, and we don't knowingly collect data from them. If you think a child has used Highva, use <strong>Delete my server data</strong> on their phone, or contact us.</p>
 <h2>13. Security</h2>
-<p>Connections to our server and our providers are encrypted (HTTPS). The keys for the AI provider and Unsplash are kept on our server, never in the app. (The app does contain PostHog's project key, which can only send events, not read them.) Our server's database only accepts requests from our own server code. Your on-phone data is protected by your iPhone's own security (your passcode and Face ID).</p>
+<p>Connections to our server and our providers are encrypted (HTTPS). The keys for the AI provider and Unsplash are kept on our server, never in the app. (The app does contain PostHog's project key, which can only send events, not read them, and RevenueCat's public app key, which is meant to be in apps.) Our server's database only accepts requests from our own server code. Your on-phone data is protected by your iPhone's own security (your passcode and Face ID).</p>
 <h2>14. Changes</h2>
 <p>If we change this policy, we'll update the "Last updated" date at the top. If a change affects what's sent to the AI coach, the app will ask for your agreement again before sending anything new.</p>
 <h2>15. Contact</h2>
