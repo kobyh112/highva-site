@@ -54,7 +54,8 @@ exactly what will be sent and asks you to agree. You can turn it off anytime in 
   journal notes)
 - your vision board captions, which goal each image is for, and each vision board photo, once, so the coach
   can describe it
-- your name, your onboarding answers and any "About you" details you shared, including sensitive ones
+- your name, your onboarding answers (except how you heard about Highva) and any "About you" details you
+  shared, including sensitive ones
   like religion, height or weight if you entered them
 - what you write to the coach in chat
 
