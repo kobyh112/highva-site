@@ -1,6 +1,6 @@
 # Highva Privacy Policy
 
-**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 14, 2026
+**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 28, 2026
 **Who we are:** Highva is an iPhone app made by Koby Hilbig ("we", "us"). Contact:
 support@highva.app.
 
@@ -26,8 +26,8 @@ Highva saves the following inside the app, on your phone:
   city's progress.
 - **Your journal:** how you felt, what made the biggest difference, tomorrow's top priorities, any notes you
   write, and the coach's advice on each entry.
-- **Your profile:** your name, your onboarding answers (why you joined, life areas, your 5-year vision, what
-  holds you back, what drives you, how you want to be coached) and your "About you" answers (sex, age,
+- **Your profile:** your name, your onboarding answers (why you joined, life areas, what holds you back,
+  what drives you, how you want to be coached, how you heard about Highva) and your "About you" answers (sex, age,
   relationship status, career stage, height and weight if Physical is one of your life areas, religion).
   Every "About you" question has "Prefer not to say", so you never have to share these details.
 - **Your vision board:** the photos you add from your library, pins from a Pinterest board you connect,
@@ -115,8 +115,9 @@ use the app is sent.
 - numbers and yes/no details about those actions, like how many tasks a new goal has, its category (such as
   "Physical"), how many priorities a journal entry has, whether a note was written, or how many days since
   you started
-- which onboarding screens you saw, whether you allowed notifications, which plan you picked on the
-  paywall, and whether the AI coach is on
+- which onboarding screens you saw, how you heard about Highva (one of a few fixed answers, like "TikTok"
+  or "a friend"; never anything you type under "Other"), whether you allowed notifications, which plan you
+  picked on the paywall, and whether the AI coach is on
 - technical details: the app version, your iPhone model (like "iPhone 16"), iOS version, language, time zone,
   and a **random analytics ID** the app makes (not your name, email or Apple ID)
 
