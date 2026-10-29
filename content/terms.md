@@ -1,6 +1,6 @@
 # Highva Terms of Use
 
-**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 14, 2026
+**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 29, 2026
 
 These terms are an agreement between you and Koby Hilbig ("we", "us"), the maker of
 Highva. By using Highva, you agree to them. If you don't agree, please don't use the app.
@@ -60,7 +60,6 @@ diet, money or career. Exercise carefully and within your limits.
 - **Only add photos you have the right to use**: photos you took, or ones you have permission to use. This
   includes photos from your library and pins from a Pinterest board you connect. You're responsible for the
   photos you add.
-- Photos from Unsplash (Explore) are shown under the Unsplash License, with credit to the photographer.
 
 ## 6. Using Highva fairly
 
@@ -75,7 +74,7 @@ We may stop providing the service to anyone who does.
 
 ## 7. Other services
 
-Highva connects to other services: Anthropic (the AI coach), Unsplash (suggested photos), Wikipedia and
+Highva connects to other services: Anthropic (the AI coach), Wikipedia and
 Wikimedia Commons (quote authors' photos and facts) and Pinterest (only if you connect a board). Their own terms
 apply to their content and services, and we're not responsible for them.
 

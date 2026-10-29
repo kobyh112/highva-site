@@ -1,6 +1,6 @@
 # Highva Privacy Policy
 
-**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 28, 2026
+**Effective date:** Oct. 7, 2026 · **Last updated:** Oct. 29, 2026
 **Who we are:** Highva is an iPhone app made by Koby Hilbig ("we", "us"). Contact:
 support@highva.app.
 
@@ -31,7 +31,7 @@ Highva saves the following inside the app, on your phone:
   relationship status, career stage, height and weight if Physical is one of your life areas, religion).
   Every "About you" question has "Prefer not to say", so you never have to share these details.
 - **Your vision board:** the photos you add from your library, pins from a Pinterest board you connect,
-  photos you add from Unsplash (saved as links), captions, which goal each image is for, and the AI's short
+  captions, which goal each image is for, and the AI's short
   description of each photo (when the AI coach is on).
 - **Coach chats**, your **profile picture**, your **settings**, and small app records (for example which day
   a celebration last played, or the day signs of distress were last noticed; see section 9).
@@ -84,16 +84,16 @@ It does these things:
 
 - **An anonymous account.** The first time the app contacts our server, it creates an account with a
   random ID. It has no name, email or password. That happens when the app checks which AI provider to name
-  on the AI coach screen (before you decide), when the AI coach is on, when you use Explore, or when the app
+  on the AI coach screen (before you decide), when the AI coach is on, or when the app
   sends anonymous totals (section 5; with usage analytics on, that's when you add your first task). If you say
   "Not now" to the AI coach, nothing of yours is sent to the AI.
 - **Daily limits.** To keep the service fair and affordable, the server counts how many times a day each
-  account uses each AI feature (and how much AI processing it used), how many photo searches it makes, and how
+  account uses each AI feature (and how much AI processing it used) and how
   many task topics it sends (at most 100 a day). These counts are kept with the random ID, and so is a note of
   which About-you milestones it already sent (section 5), without your answers, so nothing is counted twice. **Usage counts are deleted automatically after 90 days**, and
   anonymous accounts that haven't been used for 12 months are deleted with everything linked to them.
-- **Passing requests along.** AI requests go through it to Anthropic, and photo searches go through it to
-  Unsplash. The **content of these requests isn't stored or logged.**
+- **Passing requests along.** AI requests go through it to Anthropic. The **content of these requests isn't
+  stored or logged.**
 - **Anonymous totals** (section 5): counts with no account ID attached.
 - **Subscriptions** (section 6): whether your account has Premium, and your subscription's history (without
   payment details), so the AI coach knows you subscribed and so we can count trials and cancellations.
@@ -194,11 +194,6 @@ aren't sent to PostHog or anyone else, and they're never used for advertising.
 
 ## 7. Other services the app connects to
 
-- **Unsplash** (suggested photos on the Explore page): your search words go to Unsplash through our server.
-  Searches are built from your goals' life areas and can reflect "About you" details you shared (for example
-  an age group, or a place of worship for your religion). No name or account is sent. The photos load
-  straight from Unsplash's servers, and when you add one, Unsplash is told it was added, as its rules
-  require. Unsplash's privacy policy: https://unsplash.com/privacy
 - **Wikipedia and Wikimedia Commons** (quote authors' photos and facts, Habits of the Greats): the app asks
   Wikipedia for the person's page and loads their photo. Only the person's name is sent. Wikimedia's privacy
   policy: https://foundation.wikimedia.org/wiki/Policy:Privacy_policy
@@ -264,8 +259,8 @@ child has used Highva, use **Delete my server data** on their phone, or contact 
 
 ## 13. Security
 
-Connections to our server and our providers are encrypted (HTTPS). The keys for the AI provider and Unsplash
-are kept on our server, never in the app. (The app does contain PostHog's project key, which can only send
+Connections to our server and our providers are encrypted (HTTPS). The AI provider's key
+is kept on our server, never in the app. (The app does contain PostHog's project key, which can only send
 events, not read them, and RevenueCat's public app key, which is meant to be in apps.) Our server's database only accepts requests from our own server
 code. Your on-phone data is protected by your iPhone's own security (your passcode and Face ID).
 
