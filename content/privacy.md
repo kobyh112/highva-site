@@ -155,7 +155,8 @@ Our server also keeps a few **anonymous totals**: counts with no account ID, no 
   or "fitness") from a fixed list, and our server adds 1 to that week's count. Nothing is counted for a
   message that showed crisis resources, or while the coach is in its gentler mode.
 - **About-you totals (only if you opt in).** If you switch on **"Count my answers in Highva's anonymous
-  totals"** (on the About-you screen or in Account → Privacy; **off by default**), the app sends your answers
+  totals"** (a separate, unchecked box on the last setup screen, or later in Account → Privacy or Account → Your
+  answers → About you; **off by default**), the app sends your answers
   as broad groups (for example an age group like 25–34, never your exact age or your height and weight) at a
   few moments (when you finish onboarding, after a week, after a month, when a trial starts, and once a
   month while you use the app). They're counted on their own and next to simple usage facts (like goal
